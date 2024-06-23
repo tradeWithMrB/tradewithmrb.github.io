@@ -172,3 +172,12 @@ Css for move to top button
 #backToTopBtn:hover {
     background-color: #333; /* Add a dark-grey background on hover */
 }
+/*
+.info_social{
+    display: flex;
+    flex-direction: column;
+}
+
+.info_social a {
+    display: block;
+} */
