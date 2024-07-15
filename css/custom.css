@@ -181,3 +181,15 @@ Css for move to top button
 .info_social a {
     display: block;
 } */
+.plan-note{
+    background-color: inherit;
+    width: 70%;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.plan-note span {
+    color: red;
+    font-weight: bold;
+}
