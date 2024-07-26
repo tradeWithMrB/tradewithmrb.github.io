@@ -67,6 +67,28 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    var openPopupBtns = document.getElementsByClassName('open2PopupBtn');
+    var closePopupBtn = document.getElementById('closePopupBtn2');
+    var popup = document.getElementById('popup2');
+
+    for (var i = 0; i < openPopupBtns.length; i++) {
+        openPopupBtns[i].addEventListener('click', function() {
+            popup.style.display = 'flex';
+        });
+    }
+
+    closePopupBtn.addEventListener('click', function() {
+        popup.style.display = 'none';
+    });
+
+    window.addEventListener('click', function(event) {
+        if (event.target === popup) {
+            popup.style.display = 'none';
+        }
+    });
+});
+
 // movet to top button js
 
 // Get the button

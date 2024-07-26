@@ -32,7 +32,7 @@
 }
 
 .plan .price {
-    font-size: 31px;
+    font-size: 28px;
     color: #ff0000;
     text-align: center;
 }
@@ -191,5 +191,13 @@ Css for move to top button
 
 .plan-note span {
     color: red;
+    font-weight: bold;
+}
+
+.red-color {
+    color: red;
+}
+
+.boldMe {
     font-weight: bold;
 }
